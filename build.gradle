@@ -22,7 +22,9 @@ repositories {
 	mavenCentral()
 }
 
-
+bootWar {
+	mainClassName = 'com.example.ExampleApplication'
+}
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter-web')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
