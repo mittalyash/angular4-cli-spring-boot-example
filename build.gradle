@@ -24,7 +24,7 @@ repositories {
 }
 
 war {
-    baseName = 'boot-gradle'
+    baseName = 'UserApplication'
     version = '0.0.1-SNAPSHOT'
 }
 
